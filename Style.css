@@ -30,6 +30,12 @@ nav .div2 {
     justify-content: right;
 }
 
+nav .div3 {
+    display: none;
+    width: 50%;
+    justify-content: right;
+}
+
 nav div a {
     font-size: 16px;
     color: white;
@@ -807,5 +813,15 @@ textarea {
         width: 25px;
         height: 25px;
         margin: 0px 5px;
+    }
+}
+
+@media (max-width: 700px) {
+    nav .div3 {
+        display: flex;
+    }
+
+    nav .div2 {
+        display: none;
     }
 }
